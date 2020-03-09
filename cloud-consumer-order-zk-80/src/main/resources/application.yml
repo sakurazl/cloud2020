@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  application:
+    # 服务别名
+    name: zookpeer-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 106.15.37.47:2181
