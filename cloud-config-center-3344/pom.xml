@@ -14,10 +14,10 @@
 
     <dependencies>
         <!--消息总线-->
-       <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
-        </dependency>-->
+        </dependency>
         <!--config服务-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

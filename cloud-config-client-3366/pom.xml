@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-config-client-3355</artifactId>
-    <description>config客户端3355</description>
+    <artifactId>cloud-config-client-3366</artifactId>
+    <description>config客户端3366</description>
 
 
     <dependencies>
@@ -47,6 +47,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>

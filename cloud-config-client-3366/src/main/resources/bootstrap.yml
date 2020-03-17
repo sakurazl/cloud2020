@@ -1,6 +1,6 @@
 ##bootstrap.yml是系统级，优先级高于application.yml,当连不上时，才会读取application.yml 本地配置
 server:
-  port: 3355
+  port: 3366
 
 spring:
   application:
@@ -12,7 +12,8 @@ spring:
       profile: dev # 读取的后缀，上述三个综合，为master分支上的config-dev.yml的配置文件被读取，http://localhost:3344/master/config-dev.yml
       uri: http://localhost:3344 #配置中心config server的地址
 
-  rabbitmq: #rabbitmq相关配置，15672是web管理端口，5672是mq访问端口
+#rabbitmq相关配置，15672是web管理端口，5672是mq访问端口
+  rabbitmq:
     port: 5672
     host: localhost
     username: guest

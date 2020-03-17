@@ -7,4 +7,4 @@ spring:
     name: zookpeer-consumer-order
   cloud:
     zookeeper:
-      connect-string: 106.15.37.47:2181
+      connect-string: localhost:2181
