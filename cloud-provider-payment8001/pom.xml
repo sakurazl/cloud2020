@@ -20,6 +20,12 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
+        <!--包含了sleuth_zipkin  链路监控-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!--总工程共用模块-->
         <dependency>
             <groupId>com.zl.springcloud</groupId>
