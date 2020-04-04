@@ -38,10 +38,18 @@
         <module>cloud-config-center-3344</module>
         <module>cloud-config-client-3355</module>
         <module>cloud-config-client-3366</module>
+
         <!--消息驱动 生产者和消费者-->
         <module>cloud-stream-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+
+        <!--注册进nacos的支付提供者和消费者-->
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <!--注册进nacos的配置客户端-->
+        <module>cloudalibaba-config-nacos-client3377</module>
 
 
     </modules>
